@@ -16,15 +16,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+//Rodar o Test Suites LogineRealizarCompra
+
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.kabum.com.br/')
 
 WebUI.click(findTestObject('Object Repository/LojaComercio/btn_Cadastrar'))
 
-WebUI.setText(findTestObject('Object Repository/TelaLogin/input_Usuario'), 'sergioraibarros@gmail.com')
+WebUI.setText(findTestObject('Object Repository/TelaLogin/input_Usuario'), username)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/TelaLogin/input_Senha'), 'PTM+HthrXXC0/rVN/jUwCg==')
+WebUI.setEncryptedText(findTestObject('Object Repository/TelaLogin/input_Senha'), password)
 
 WebUI.click(findTestObject('Object Repository/TelaLogin/input_Login'))
 

@@ -15,6 +15,27 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Login</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>7a4211dd-7297-4c74-adab-a0bc4ee6fd40</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/login</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>7a4211dd-7297-4c74-adab-a0bc4ee6fd40</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>15b669e0-c1dd-429b-a2aa-5e05c5786f5b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>7a4211dd-7297-4c74-adab-a0bc4ee6fd40</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>155b9947-aa90-41a0-9006-c23300223dd8</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>706bc69c-572a-4d8f-b3fb-5029b1654f0a</guid>

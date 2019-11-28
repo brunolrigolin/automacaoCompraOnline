@@ -16,6 +16,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+//Rodar o Test Suites LogineRealizarCompra
+
 WebUI.setText(findTestObject('Object Repository/BuscarProduto/input_pesquisarProduto'), 'galaxy s10')
 
 WebUI.verifyElementClickable(findTestObject('BuscarProduto/font_Produto'), FailureHandling.STOP_ON_FAILURE)

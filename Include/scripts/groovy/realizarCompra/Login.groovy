@@ -49,7 +49,7 @@ import cucumber.api.java.en.When
 
 class Login {
 
-	@Given("Entrar no site de comercio")
+	@Given("Entrar no site de comercio online")
 	def navegarParaSiteComercial(){
 		WebUI.openBrowser('')
 		WebUI.navigateToUrl('https://www.kabum.com.br/')
@@ -67,7 +67,7 @@ class Login {
 		WebUI.click(findTestObject('Object Repository/TelaLogin/input_Login'))
 	}
 
-	@Then("Verificar login no site de comercio")
+	@Then("Verificar login no site de comercio online")
 	def verificarAcessar(){
 		WebUI.verifyElementPresent(findTestObject('LojaComercio/btn_Sair'), 5)
 		WebUI.delay(15)

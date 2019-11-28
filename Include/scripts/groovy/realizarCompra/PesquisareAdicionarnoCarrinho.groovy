@@ -62,20 +62,20 @@ class PesquisareAdicionarnoCarrinho {
 		WebUI.click(findTestObject('Object Repository/TelaLogin/input_Login'))
 		WebUI.setText(findTestObject('Object Repository/BuscarProduto/input_pesquisarProduto'), produto)
 	}
-	
+
 	@And("Verificar produto")
 	def verificarProduto(){
 		WebUI.verifyElementPresent(findTestObject('BuscarProduto/font_Produto'), 5)
 		WebUI.delay(10)
 	}
-	
+
 	@And("Escolher e Adicionar no carrinho")
 	def adicionarCarrinho(){
-		WebUI.click(findTestObject('Object Repository/BuscarProduto/font_Produto'))		
-		WebUI.navigateToUrl('https://www.kabum.com.br/produto/100816/smartphone-samsung-galaxy-s10-128gb-16mp-tela-6-1-preto-sm-g973f-1dl')		
+		WebUI.click(findTestObject('Object Repository/BuscarProduto/font_Produto'))
+		WebUI.navigateToUrl('https://www.kabum.com.br/produto/100816/smartphone-samsung-galaxy-s10-128gb-16mp-tela-6-1-preto-sm-g973f-1dl')
 		WebUI.click(findTestObject('Object Repository/EscolherProduto/Comprar'))
 	}
-	
+
 	@Then("Verificar produto no carrinho")
 	def verificarCarrinho() {
 		WebUI.verifyElementPresent(findTestObject('EscolherProduto/div_ProdutoNoCarrinho'), 10)
