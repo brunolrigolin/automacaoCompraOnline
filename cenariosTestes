@@ -1,0 +1,22 @@
+Cenário de Teste Login 01
+
+Caso de Teste: Usuário tenta acessar sistema com usuário e senhas corretos
+Plataforma: Web
+Resultado esperado: Conseguir acessar a plataforma
+
+
+Cenário de Teste Login 02
+
+Caso de Teste: Usuário tenta acessar sistema com usuário e senhas incorretos
+Plataforma: Web
+Resultado esperado: Não conseguir acessar a plataforma
+
+Cenário de Teste Realizar Compra 01
+
+Caso de Teste: Acessar o sistema, pesquisar o produto e realizar a compra
+Plataforma: Web
+Resultado esperado: Conseguir encontrar o produto desejado e adicionar ao carrinho
+
+Caso de Teste: Acessar o sistema, pesquisar o produto e não encontrar e tentar realizar a compra
+Plataforma: Web
+Resultado esperado: Produto não ser encontrado e não conseguir proseguir 
