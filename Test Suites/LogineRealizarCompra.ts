@@ -14,7 +14,7 @@
       <guid>03544b51-a391-486e-8e0e-bd3453acd199</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/LoginAmericanas</testCaseId>
+      <testCaseId>Test Cases/Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>706bc69c-572a-4d8f-b3fb-5029b1654f0a</guid>
