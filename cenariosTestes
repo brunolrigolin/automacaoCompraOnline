@@ -17,6 +17,8 @@ Caso de Teste: Acessar o sistema, pesquisar o produto e realizar a compra
 Plataforma: Web
 Resultado esperado: Conseguir encontrar o produto desejado e adicionar ao carrinho
 
+Cenário de Teste Realizar Compra 02
+
 Caso de Teste: Acessar o sistema, pesquisar o produto e não encontrar e tentar realizar a compra
 Plataforma: Web
 Resultado esperado: Produto não ser encontrado e não conseguir proseguir 
